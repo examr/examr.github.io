@@ -289,8 +289,8 @@
   padding: 30px 40px;
   text-align: center;
   background-color: #fafafa;
-  box-shadow: 0 0 30px 5px rgba(0, 0, 0, 0.4);
-/*   visibility: hidden; */
+  box-shadow: 0 0 1000px 15px rgba(0, 0, 0, 0.6);
+  visibility: hidden;
   transition: transform 0.4s, top 0.4s;
 }
 
