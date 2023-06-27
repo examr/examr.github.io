@@ -6,6 +6,9 @@
     box-sizing: border-box;
     font-family: 'Sora', sans-serif;
 }
+body:: -webkit-scrollbar{
+    display: none;
+}
 #header{
     position: sticky;
     padding: 10px 60px;
@@ -291,7 +294,7 @@
   background-color: #fafafa;
   box-shadow: 0 0 1000px 15px rgba(0, 0, 0, 0.6);
   visibility: hidden;
-  transition: transform 0.4s, top 0.4s;
+  transition: transform 0.2s, top 0.2s;
 }
 
 .form-box #close{
