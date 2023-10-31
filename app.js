@@ -30,6 +30,10 @@ const resize = () => {
     }
   };
 
+const appDownload = () => {
+            location.href = "https://github.com/examr/examr/releases/download/1.2/app-release.apk";
+        };
+
 // const canvas = document.getElementsByTagName('canvas')[0];
 // resizeCanvas();
 
