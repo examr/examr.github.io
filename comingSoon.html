@@ -8,7 +8,12 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <a id="back-btn" href="#">← Go Back</a>
+    <button id="back-btn" type="button" onclick="backButton()">← Go Back</button>
     <h1 id="h1-back">We are under Development.</h1>
+    <script>
+        const backButton = () => {
+            window.history.back()
+        }
+    </script>
 </body>
 </html>
